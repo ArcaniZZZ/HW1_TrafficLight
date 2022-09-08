@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		272C3BE628CA4A44001CB163 /* HW1_TrafficLightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272C3BE528CA4A44001CB163 /* HW1_TrafficLightApp.swift */; };
-		272C3BE828CA4A44001CB163 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272C3BE728CA4A44001CB163 /* ContentView.swift */; };
+		272C3BE828CA4A44001CB163 /* TrafficLightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272C3BE728CA4A44001CB163 /* TrafficLightsView.swift */; };
 		272C3BEA28CA4A45001CB163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 272C3BE928CA4A45001CB163 /* Assets.xcassets */; };
 		272C3BED28CA4A45001CB163 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 272C3BEC28CA4A45001CB163 /* Preview Assets.xcassets */; };
+		272C3BF628CA4E0B001CB163 /* TrafficLightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272C3BF528CA4E0B001CB163 /* TrafficLightView.swift */; };
+		272C3BF828CA53AE001CB163 /* NextButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272C3BF728CA53AE001CB163 /* NextButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		272C3BE228CA4A44001CB163 /* HW1_TrafficLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW1_TrafficLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		272C3BE528CA4A44001CB163 /* HW1_TrafficLightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW1_TrafficLightApp.swift; sourceTree = "<group>"; };
-		272C3BE728CA4A44001CB163 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		272C3BE728CA4A44001CB163 /* TrafficLightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightsView.swift; sourceTree = "<group>"; };
 		272C3BE928CA4A45001CB163 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		272C3BEC28CA4A45001CB163 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		272C3BF528CA4E0B001CB163 /* TrafficLightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightView.swift; sourceTree = "<group>"; };
+		272C3BF728CA53AE001CB163 /* NextButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +56,11 @@
 			isa = PBXGroup;
 			children = (
 				272C3BE528CA4A44001CB163 /* HW1_TrafficLightApp.swift */,
-				272C3BE728CA4A44001CB163 /* ContentView.swift */,
+				272C3BE728CA4A44001CB163 /* TrafficLightsView.swift */,
+				272C3BF528CA4E0B001CB163 /* TrafficLightView.swift */,
 				272C3BE928CA4A45001CB163 /* Assets.xcassets */,
 				272C3BEB28CA4A45001CB163 /* Preview Content */,
+				272C3BF728CA53AE001CB163 /* NextButtonView.swift */,
 			);
 			path = HW1_TrafficLight;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				272C3BE828CA4A44001CB163 /* ContentView.swift in Sources */,
+				272C3BE828CA4A44001CB163 /* TrafficLightsView.swift in Sources */,
+				272C3BF628CA4E0B001CB163 /* TrafficLightView.swift in Sources */,
+				272C3BF828CA53AE001CB163 /* NextButtonView.swift in Sources */,
 				272C3BE628CA4A44001CB163 /* HW1_TrafficLightApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

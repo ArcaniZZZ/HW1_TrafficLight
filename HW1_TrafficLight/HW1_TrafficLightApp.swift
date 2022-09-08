@@ -11,7 +11,7 @@ import SwiftUI
 struct HW1_TrafficLightApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TrafficLightsView()
         }
     }
 }
